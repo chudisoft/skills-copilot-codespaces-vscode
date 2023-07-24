@@ -1,0 +1,58 @@
+body {
+    padding: unset;
+    margin: unset;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+    gap: 0.5em;
+    background-color: aliceblue;
+}
+
+nav a {
+    color: dodgerblue;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: unset;
+    margin: unset;
+    gap: 0.5em;
+}
+
+nav ul li {
+    background-color: dodgerblue;
+    padding: 0.5em 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+    font-weight: 300;
+}
+
+li {
+    list-style: none;
+}
+
+#closeBtn {
+    position: absolute;
+    right: 1em;
+    background-color: #fefe;
+}
+
+main {
+    padding: 2em;
+}
+
+h1 {
+    color: #2a73b3;
+}
